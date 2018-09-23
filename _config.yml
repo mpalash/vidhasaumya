@@ -13,16 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Vidha Saumya
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  is a drawer, cook, and a bookmaker. She seeks visual interest in the idea of congregating bodies, popular culture and the notion of deformity. She has held solo exhibitions and participated in group exhibitions in Lahore, Mumbai, Helsinki, and Tampere. She is the co-founder of Museum of Impossible Forms, Helsinki, where she heads ‘The m{if} Publishing Table’ – a project that seeks to actively engage with artists, writers and practitioners through book making. She is currently pursuing Master’s Degree in Visual Culture and Contemporary Art at Aalto University, Helsinki.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+social:
+  email: v@gmail.com
+  facebook: https://www.facebook.com/vidha.saumya
+  linkedin: https://www.linkedin.com/in/vidha-saumya-9763a4114/
+  instagram-dossier: https://www.instagram.com/whatismissinginmydossier/
+  instagram-vidheshawri: https://www.instagram.com/vidheshwari/
+
+# Collections
+collections:
+  books:
+    output: true
+  drawings:
+    output: true
+  objects:
+    output: true
+  photos:
+    output: true
 
 # Build settings
 markdown: kramdown
