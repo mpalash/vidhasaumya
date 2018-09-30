@@ -1,5 +1,6 @@
 // FONTS IMPORT
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono:400,500|Roboto:400,700|Work+Sans:400,600');
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono:400,500|Roboto:400,700|Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i|Roboto+Slab');
 
 html,
 body {
@@ -12,8 +13,9 @@ body {
   }
 }
 body {
-  padding: 0 $s-b 0 $s-xxl;
-  font-family: $font-r;
+  margin: 0;
+  padding: 0;
+  font-family: $font-ips;
   line-height: $line-height-base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,9 +24,19 @@ body {
   widows: 2;
   orphans: 2;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+  font-family: $font-rs;
+  font-weight: normal;
+  color: $color-blue;
+}
+h1 { font-size: $s-m; }
+h2 { font-size: $s-b; }
+h3 { font-size: $s-b; }
+h4, h5, h6 {
+  font-weight: normal;
 }
 a {
+  color: $color-blue;
 }
 p {
   font-size: 1rem;

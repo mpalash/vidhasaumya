@@ -1,0 +1,36 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: $s-xl;
+  background: white;
+  width: $container-max-width;
+  line-height: $s-m;
+  border-bottom: 1px solid $color-blue;
+  padding: $s-m $s-xxl $s-m $s-xxl;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.site-name {
+  font-family: $font-rs;
+  font-size: $s-m;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.site-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-left: $s-xl;
+  }
+  a {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

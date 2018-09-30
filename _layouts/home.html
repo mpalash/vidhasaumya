@@ -1,39 +1,8 @@
 ---
 layout: default
 ---
-<h1>{{ site.title }}</h1>
-<p>{{ site.description }}</p>
-
-<h2 class="collection-name">Books</h2>
 <ul class="collection-list">
-  {% for page in site.books reversed %}
-  <li>
-    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-<h2 class="collection-name">Drawings</h2>
-<ul class="collection-list">
-  {% for page in site.drawings reversed %}
-  <li>
-    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-<h2 class="collection-name">Objects</h2>
-<ul class="collection-list">
-  {% for page in site.objects reversed %}
-  <li>
-    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-<h2 class="collection-name">Photos</h2>
-<ul class="collection-list">
-  {% for page in site.photos reversed %}
+  {% for page in site.projects reversed %}
   <li>
     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   </li>
