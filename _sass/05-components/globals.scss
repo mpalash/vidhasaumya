@@ -1,18 +1,25 @@
 .wrapper {
   @extend .container;
   margin: 0 0 0 $s-xl;
-  padding: $s-m $s-xxl $s-m $s-xxl;
+  padding-left: $s-xxl;
+  padding-right: $s-xxl;
 }
 .page-content {
   .wrapper {
     padding-top: $s-xxxl;
-    min-height: 80vh;
+    min-height: calc(100vh - #{$s-m*3});
     border-left: 1px solid $color-blue;
   }
 }
 
 footer {
+  height: $s-m*3;
+  display: flex;
+  flex-direction: row;
   .wrapper {
+    padding-top: $s-m;
+    padding-bottom: $s-m;
+    border-left: 1px solid $color-blue;
     font-size: 0.8rem;
   }
 }
