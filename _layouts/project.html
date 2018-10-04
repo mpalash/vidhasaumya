@@ -9,23 +9,6 @@ layout: default
     {{ content }}
   </div>
 
-  {% assign sections = site.content | sort: 'pubdate' %}
-  {% for section in sections reversed %}
-    {% if section.parent == page.title %}
-    <div class="{{ section.layout }}">
-      <div class="meta">
-        <p class="pub-date">{{ section.pubdate }}</p>
-        <p class="pub-type">{{ section.layout }}</p>
-      </div>
-      <h2>{{ section.title | split "~" | last }}</h2>
-      {% if section.summary %}
-        <div class="text">{{ section.summary | markdownify }}</div>
-        <p class="summary-read-more"><a href="{{ section.url }}">Read more</a></p>
-      {% else %}
-        <div class="text">{{ section.content }}</div>
-      {% endif %}
-    </div>
-    {% endif %}
-  {% endfor %}
+
 
 </article>
