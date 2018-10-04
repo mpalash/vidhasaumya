@@ -1,5 +1,5 @@
 ---
-title: No one at the ceremony remembers to mention the artist
+title: Monumentless ~ No one at the ceremony remembers to mention the artist
 parent: Monumentless Moments
 layout: text
 pubdate: 2016-02-29T22:00:00.000Z
