@@ -2,6 +2,11 @@
 layout: default
 ---
 
-{% for page in site.projects reversed %}
-  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-{% endfor %}
+<div class="project-list">
+  {% for page in site.projects reversed %}
+  <div class="project">
+    <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+    <p>{{ page.content }}</p>
+  </div>  
+  {% endfor %}
+</div>
