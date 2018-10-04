@@ -1,7 +1,7 @@
 ---
 title: No one at the ceremony remembers to mention the artist
 parent: Monumentless Moments
-layout: object
+layout: text
 pubdate: 2016-02-29T22:00:00.000Z
 summary: >-
   In her current body of work, Vidha Saumya questions through history and
