@@ -70,7 +70,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Content Type"
         name: "layout"
         widget: "select"
-        options: ["news","drawimg","book","object","exhibition"]
+        options: ["book","drawing","exhibition","news","object","text"]
       - label: "Date"
         name: "pubdate"
         default: ""
